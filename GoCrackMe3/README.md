@@ -11,7 +11,7 @@ Find that string in memory during execution (debugging), around the same address
 is how I first-blooded the challenge).
 
 Alternatively the binary can be patched so that one of the print statements is pointed to the flag buffer itself.
-`bsdiff`/`bspatch` patch is in "GoCrackMe3.patch" if you are interested:
+`bsdiff`/`bspatch` patch is in [`GoCrackMe3.patch`](GoCrackMe3.patch) if you are interested:
 
 ```shell
 % bspatch GoCrackMe3 GoCrackMe3.patched GoCrackMe3.patch

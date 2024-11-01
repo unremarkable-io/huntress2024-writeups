@@ -35,6 +35,8 @@ the flag manually.
 
 ## Static solve
 
+Fully implemented in [`rusty_bin_static.py`](rusty_bin_static.py), some explanation below.
+
 The entire lookup table is "hidden" in the PE resources:
 
 ```shell

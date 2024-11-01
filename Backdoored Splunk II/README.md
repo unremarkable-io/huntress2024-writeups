@@ -1,4 +1,4 @@
-# Baby Buffer Overflow - 32bit
+# Backdoored Splunk II
 
 The backdoored file is `dns-health.ps1`. This is a Splunk Add-On running on Windows - the service (part of the challenge),
 is accessed and HTML/base64 comments are Invoked in Powershell on Windows.

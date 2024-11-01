@@ -11,4 +11,6 @@ iex ('{39}{23}{26}{13}{21}{16}{17}{14}{27}{9}{22}{3}{12}{1}{5}{20}{8}{38}{37}{7}
 
 Just change iex to Write-Output in a new script.
 
+```
 flag{8ba43de1e095287dbbf7722e51239a63}
+```
