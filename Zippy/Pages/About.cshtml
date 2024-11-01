@@ -1,0 +1,14 @@
+@page
+@using System.IO;
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flag</title>
+</head>
+<body>
+    <div>
+        <h1>Flag</h1>
+        <p>@(System.IO.File.ReadAllText(@"/app/flag.txt"))</p>
+    </div>
+</body>
+</html>

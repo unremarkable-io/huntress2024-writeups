@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package thats_life;
+
+option go_package = "github.com/HuskyHacks/thats_life/pb;pb";
+
+message Cell {
+  bool alive = 1;
+  int32 color = 2;
+}
+
+message CellRow {
+  repeated .thats_life.Cell cells = 1;
+}
+
+message Grid {
+  int32 width = 1;
+  int32 height = 2;
+  repeated .thats_life.CellRow rows = 3;
+}
+
